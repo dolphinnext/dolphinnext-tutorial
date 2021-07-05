@@ -79,7 +79,7 @@ docker pull ummsbiocore/dolphinnext-studio
 1. We move database outside of the container to be able to keep the changes in the database every time you start the container.
 Please choose a directory in your machine to mount. For example, I will use ~/export directory for this purpose.
 ```
-sudo mkdir -p ~/export
+mkdir ~/export
 ```
 2. While running the container;
 ```
